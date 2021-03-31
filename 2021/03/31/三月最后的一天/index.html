@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2021/3 
+      三月最后的一天 
       
       
       |
@@ -95,50 +95,95 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2021</span>
-          </h2>
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">三月最后的一天</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="Update time"></i>
+          2021-03-31 10:12:37
+        </span>
+        
+      </div>
+      <div class="markdown-body">
+        <h1 id="三月的最后一天"><a href="#三月的最后一天" class="headerlink" title="三月的最后一天"></a>三月的最后一天</h1><p>可能是梅雨季快到了 温州的雨开始连绵的下<br>每天掰着手指数自己什么时候可以毕业  什么时候可以挣脱这里<br>自从单身后又开始慢慢佛系起来 想着给自己找点事情做（其实我也是有其他事情的 就是不想干）<br>昨天搭了一晚上的BLOG 现在想想其实很多问题如果仔细看看教程就不会错了<br>联想到平常很多事情 比如毕业论文里的病例 病人的病历都搞错了hhhh幸好2个人的病史差不多<br>这个容易马虎的毛病还是得改呀</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2021/03/30/%E7%AC%AC%E4%B8%80%E7%AF%87%EF%BC%81/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="Update time"></i>
+              2021-03-31 10:12:37
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="三月最后的一天">
-        <div class="time-m-d">03-31</div>
-        <div class="title">
-          <a href="/2021/03/31/%E4%B8%89%E6%9C%88%E6%9C%80%E5%90%8E%E7%9A%84%E4%B8%80%E5%A4%A9/">
-            <span>三月最后的一天</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="第一篇！">
-        <div class="time-m-d">03-30</div>
-        <div class="title">
-          <a href="/2021/03/30/%E7%AC%AC%E4%B8%80%E7%AF%87%EF%BC%81/">
-            <span>第一篇！</span>
-          </a>
-        </div>
-      </div>
+  <div class="post-catalog" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E6%9C%88%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9"><span class="toc-text">三月的最后一天</span></a></li></ol>
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">03-30</div>
-        <div class="title">
-          <a href="/2021/03/30/hello-world/">
-            <span>Hello World</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         <div class="footer">
   <div class="social">
